@@ -1,0 +1,184 @@
+
+@font-face {
+    font-family: 'Droid Sans Mono';
+    src: url('font/DroidSansMono.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Droid Sans Mono', monospace;
+    background-color: black;
+    color: white;
+    margin: 1rem;
+}
+
+/* Navbar */
+.nav {
+    margin: auto 2rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: #4682A9;
+    text-decoration: none;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+
+/* TRENDING */
+#trending {
+    margin: 5rem 0 auto;
+    padding: 1.5rem 1rem;
+}
+
+.trending-image {
+    width: 20%;
+    border-radius: 10%;
+    margin: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* DRAKOR */
+#drakor {
+    margin: 1rem 0 auto;
+    padding: 1.5rem 1rem;
+}
+
+.drakor-box {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.drakor-text {
+    line-height: 0.5;
+    padding: 1rem;
+}
+
+.container {
+    padding: 1.5rem 1rem;
+}
+
+.img-poster {
+    float: left;
+    margin-right: 1.5rem;
+    width: 4.5rem;
+    margin-top: 1rem;
+}
+
+
+
+
+.emoji-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: inherit;
+}
+
+.emoji-btn {
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.emoji-count {
+    font-size: 16px;
+    padding: 1rem;
+}
+
+
+
+.card {
+    box-shadow: 3px 3px 10px #4682A9;
+    padding: 0.5rem;
+    margin: 5px;
+}
+
+
+
+.news {
+    box-shadow: 3px 3px 3px #4682A9;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+/* LOGIN */
+
+#login {
+    padding-top: 2rem;
+}
+
+.login-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #4682A9;
+}
+
+.login-card h2 {
+    color: #4682A9;
+}
+
+.login-card input[type="text"],
+.login-card input[type="password"] {
+    border-radius: 5px;
+    border: 1px solid #4682A9;
+    margin: 1rem 0;
+    padding: 10px;
+}
+
+.login-card button {
+    border-radius: 5px;
+    border: 1px solid #4682A9;
+}
+
+
+/* FOOTER */
+
+#footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.footer h5 {
+    font-size: 1rem;
+}
+
+.social-icons {
+    height: 1rem;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .trending-image {
+        width: 35%;
+    }
+}
+
+
