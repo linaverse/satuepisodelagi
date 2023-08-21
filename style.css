@@ -182,9 +182,6 @@ h2 {
         margin: 2rem 0;
     }
 
-    .trending-image {
-        width: 35%;
-    }
 }
 
 /* phone */
@@ -204,5 +201,9 @@ h2 {
 
     p {
         font-size: 9px;
+    }
+
+    .trending-image {
+        width: 35%;
     }
 }
